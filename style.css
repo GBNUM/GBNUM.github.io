@@ -139,7 +139,7 @@ body{
     width: 100%;
     height: fit-content;
     overflow:auto;
-    display: inline-flex;
+    display: flex;
     justify-content:space-around;
     margin-bottom: 100px;
 }
@@ -288,13 +288,33 @@ height: 400px;
         font-size: 8px;
     }
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
-height: 150px;
+height: 300px;
+width: 80%;
+margin-left: 10%;
 }
 .profile{
-height: 200px;
+height: 420px;
+width: 280px;
+display: flex;
+justify-content: center;
+
 }
+#home{
+height:800px;
+margin-bottom:0;
 }
-
-
-
+.gb{
+margin-left: 30px;
+}
+.imagecont{
+display: initial;
+margin: 10%;
+}
+.body{
+margin: 0;
+}
+.imagecont2{
+display: initial;
+margin: 10%;
+}
 
